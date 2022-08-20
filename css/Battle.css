@@ -1,0 +1,39 @@
+.Battle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(yourbackgroundimage);
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.player_1, .player_2 {
+    position: absolute;
+    transform: scale(2);
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background: url(shadow.png);
+}
+
+.player_1 img, .player_2 img {
+    pointer-events: none;
+}
+
+.player_1 {
+    bottom: 57px;
+    left: 1px;
+}
+
+.player_1 img {
+    transform: translate(-64px); 
+}
+
+.player_2 {
+    top: 42px;
+    right: -1px;
+}
+
+

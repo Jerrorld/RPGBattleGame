@@ -1,0 +1,75 @@
+
+https://www.youtube.com/watch?v=xfCPZhMw5Z0 @ 26:30
+
+
+.Combatant {
+    width: 67px;
+    height: 14px;
+    background: url("hpbar.png") no-repeat no-repeat;
+    position: absolute;
+}
+
+.Battle .Combatant {
+    transform: scale(2);
+}
+
+.Battle .Combatant[data-active="false"] {
+    opacity: 0;
+}
+
+.Battle .Combatant[data-active="true"] {
+    opacity: 1;
+}
+
+.Combatant[data-team="player"]{
+    left: 46px;
+    top: 70px;
+}
+
+.Combatant[data-team="enemy"] {
+
+}
+
+.combatant_character_crop {
+    position: ;
+}
+
+.Combatant_character {
+
+}
+
+.Battle .combatant_character_crop {
+    display: none;
+}
+
+.Combatant_name {
+    position:  absolute;
+    left:-2px;
+    top:-8px;
+    white-space: nowrap;
+    background: var(--menu-font-color);
+    color:  #fff;
+    font-size: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0;
+}
+
+.Combatant_type {
+    position: absolute;
+    left: 3px;
+    top: -2px;
+    /* should be same size as image */
+    width: 16px; should be same size as image
+    height: 16px;
+}
+
+/* xp container
+
+level 
+
+status
+ */
+
+
+ /* continue watch at 43:00 */
